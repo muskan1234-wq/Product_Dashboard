@@ -5,7 +5,6 @@ This project is a Full Stack Product Management Dashboard designed to manage pro
 The system allows Admin users to perform full CRUD operations, while normal users can only view products. It integrates a modern React frontend with a secure Node.js backend.
 
 ✨ Key Features
-
 🔐 Authentication System
 JWT-based secure login system
 Role-Based Access Control (Admin & User)
@@ -33,6 +32,7 @@ Glassmorphism modern UI design
 Smooth animations using Framer Motion
 
 🧱 Tech Stack
+
 🌐 Frontend
 React 19
 Vite
@@ -51,6 +51,7 @@ MongoDB (Mongoose ODM)
 🎨 Styling
 Vanilla CSS (Custom Design System)
 
+📂 Project Structure
 ProductManagementDashboard
 
 frontend
@@ -71,7 +72,6 @@ backend
 
 package.json
 README.md
-
 
 ⚙️ Installation & Setup
 1️⃣ Clone Repository
@@ -97,11 +97,14 @@ PUT	/products/:id	Admin	Update product
 DELETE	/products/:id	Admin	Delete product
 
 👤 Sample Users
+
 Admin:
+
 username: admin
 password: admin123
 
 User:
+
 username: user
 password: user123
 
@@ -111,6 +114,7 @@ Unit testing
 Deployment (Vercel + Render)
 Performance optimization
 UI enhancements
+
 👩‍💻 Developer
 
 Muskan Pathan
