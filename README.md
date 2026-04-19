@@ -91,7 +91,6 @@ The system allows **Admin users** to perform full CRUD operations, while **norma
 - README.md  
 
 ---
-
 2️⃣ server Setup
 cd server
 npm install
@@ -101,7 +100,6 @@ npm start
 cd client
 npm install
 npm run dev
-
 ---
 
 🔑 API Endpoints
