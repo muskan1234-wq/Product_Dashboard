@@ -2,7 +2,6 @@
 📌 Overview
 
 This project is a Full Stack Product Management Dashboard designed to manage products efficiently with secure authentication and role-based access control.
-
 The system allows Admin users to perform full CRUD operations, while normal users can only view products. It integrates a modern React frontend with a secure Node.js backend.
 
 ✨ Key Features
@@ -48,25 +47,12 @@ BcryptJS (Password Hashing)
 
 🗄️ Database
 MongoDB (Mongoose ODM)
+
 🎨 Styling
 Vanilla CSS (Custom Design System)
+
 📂 Project Structure
-Product-Management-Dashboard
-│
-├── frontend
-│   ├── src
-│   │   ├── components
-│   │   ├── pages
-│   │   └── App.jsx
-│
-├── backend
-│   ├── routes
-│   ├── controllers
-│   ├── middleware
-│   ├── models
-│   └── server.js
-│
-└── README.md
+<pre> Product-Management-Dashboard/ │ ├── frontend/ │ ├── src/ │ │ ├── components/ │ │ ├── pages/ │ │ └── App.jsx │ │ │ ├── public/ │ └── index.html │ ├── backend/ │ ├── routes/ │ ├── controllers/ │ ├── middleware/ │ ├── models/ │ ├── config/ │ └── server.js │ ├── package.json └── README.md </pre>
 
 ⚙️ Installation & Setup
 1️⃣ Clone Repository
